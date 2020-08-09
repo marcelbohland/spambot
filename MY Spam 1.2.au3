@@ -40,3 +40,4 @@ MsgBox(0,"INFO","Das Programm arbeitet. Es wurde entwickelt von Marcel")
 	func End()
 	   MsgBox(0,"","Das Programm wurde Beendet")
 	   Exit
+ EndFunc
