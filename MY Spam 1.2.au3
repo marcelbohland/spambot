@@ -1,22 +1,18 @@
 #cs ----------------------------------------------------------------------------
-
- AutoIt Version: 1.6
- Author:         MR.Spambo
-
+ AutoIt Version: 1.7
+ Author:         Marcel Bohland
  Script Function:
-	Spam Whatsapp and hangouts (and co)
-
+	Spambot. Send msg to input
 #ce ----------------------------------------------------------------------------
 
 ; Script Start - Add your code below here
-   MsgBox(0,"Steuerung","Mit F9 starten und mit F10 beenden und mit F4 Infos.Mit F2 Beenden.")
-$inputbox = InputBox("MY Spam", "Was soll gesendet werden?")
+   MsgBox(0,"Steuerung","Mit F1 starten, mit F2 stoppen. Mit F3 Beenden.")
+$inputbox = InputBox("Spambot", "Was soll gesendet werden?")
 If @error Then Exit
-       MsgBox(0,"Info","Das Programm wurden nur auf whatsappweb und hangouts web getestet!")
 
-HotKeySet("{F9}", "rota")
-HotKeySet("{F10}", "Pause")
-HotKeySet("{F2}", "End")
+HotKeySet("{F1}", "rota")
+HotKeySet("{F2}", "Pause")
+HotKeySet("{F3}", "End")
 HotKeySet("{F4}", "ShowMessage")
 
 pause()
@@ -36,7 +32,7 @@ while 1
 
 	func ShowMessage()
 
-MsgBox(0,"INFO","Das Programm arbeitet. Es wurde entwickelt von MR.Spambo")
+MsgBox(0,"INFO","Das Programm arbeitet. Es wurde entwickelt von Marcel")
 
 
  EndFunc   ;==>Senden
@@ -44,215 +40,3 @@ MsgBox(0,"INFO","Das Programm arbeitet. Es wurde entwickelt von MR.Spambo")
 	func End()
 	   MsgBox(0,"","Das Programm wurde Beendet")
 	   Exit
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
